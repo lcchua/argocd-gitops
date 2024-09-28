@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: node
-          image: public.ecr.aws/sctp-sandbox/luqman-flask-ecr-app:hello-world:latest
+          image: public.ecr.aws/sctp-sandbox/luqman-flask-ecr-app:latest
           ports:
             - containerPort: 3000
